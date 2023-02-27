@@ -1,0 +1,27 @@
+.leftNavigation {
+  position: absolute;
+  width: 17%;
+  background-color: rgba(255, 255, 255, 0.13);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 13%;
+  color: white;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgb(8 7 16 / 60%);
+  padding: 20px 25px;
+}
+.leftNavigation h4.cantAccess {
+  color: red;
+}
+
+.leftNavigation p a {
+  margin: 10px 0;
+  cursor: pointer;
+  width: auto;
+  text-decoration: underline;
+  color: white;
+}
